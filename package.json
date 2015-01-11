@@ -1,0 +1,30 @@
+{
+  "name": "minicanvas.js",
+  "version": "0.1.0",
+  "description": "Mini-library to quickly generate canvas images (in the browser and nodejs)",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "lib/minicanvas.js",
+  "dependencies": {
+    "gifencoder": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fponticelli/minicanvas.js"
+  },
+  "keywords": [
+    "canvas",
+    "node",
+    "browser"
+  ],
+  "author": "Franco Ponticelli <franco.ponticelli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fponticelli/minicanvas.js/issues"
+  },
+  "homepage": "https://github.com/fponticelli/minicanvas.js"
+}
