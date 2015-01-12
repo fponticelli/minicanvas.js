@@ -1,6 +1,6 @@
 {
-  "name": "minicanvas.js",
-  "version": "0.2.1",
+  "name": "minicanvas",
+  "version": "0.2.2",
   "description": "Mini-library to quickly generate canvas images (in the browser and nodejs)",
   "directories": {
     "lib": "./lib"
