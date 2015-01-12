@@ -1,12 +1,13 @@
 {
   "name": "minicanvas.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mini-library to quickly generate canvas images (in the browser and nodejs)",
   "directories": {
     "lib": "./lib"
   },
   "main": "lib/minicanvas.js",
   "dependencies": {
+    "canvas": "^1.1.6",
     "gifencoder": "^1.0.6"
   },
   "scripts": {
