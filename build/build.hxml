@@ -1,0 +1,7 @@
+-js ../lib/minicanvas.js
+-lib minicanvas
+-dce std
+-D expose
+-D js-flatten
+-D analyzer
+minicanvas.MiniCanvas
