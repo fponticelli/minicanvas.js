@@ -19,6 +19,8 @@ It renders an image just like this:
 
 The API is quite simple and all methods are chainable. `MiniCanvas.create` generates a new instance. You can then use the many drawing options available and in the end call `display(name)` to 'show' the result. What `display` does depends on the environment, if you are using *minicanvas* in the browser than it will attach the canvas to the DOM (by default it will append to the body but you can decide for another parent element by overwriting `minicanvas.BrowserCanvas.parentNode`). If the image has been rendered within nodejs then an image file will be created and stored inside the `images` folder (the folder name can be redefined by overwriting `minicanvas.NodeCanvas.imagePath`).
 
+*minicanvas.js* is all about makeing it simple, saving images mean no streams or complicated setups, just give your sample a name. Images will be saved in PNG format if they are static, or Animated GIF if there is an animation involved.
+
 ## Drawing API
 
 ### `border(weight = 1.0, ?color = #000000)`
