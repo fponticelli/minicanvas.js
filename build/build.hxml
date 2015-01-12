@@ -4,5 +4,5 @@
 -D expose
 -D jslib
 -D js-flatten
--D analyzer
+#-D analyzer
 minicanvas.MiniCanvas
