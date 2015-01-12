@@ -2,6 +2,7 @@
 -lib minicanvas
 -dce std
 -D expose
+-D jslib
 -D js-flatten
 -D analyzer
 minicanvas.MiniCanvas
