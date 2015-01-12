@@ -1,6 +1,6 @@
 -js ../lib/minicanvas.js
 -lib minicanvas
--dce std
+-dce full
 -D expose
 -D jslib
 -D js-flatten
